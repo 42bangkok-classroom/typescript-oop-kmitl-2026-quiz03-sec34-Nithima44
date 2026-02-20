@@ -20,4 +20,4 @@ export class User {
         return `${this.firstname} ${this.lastname}`;
     }
 }
-
+const user = new User();
