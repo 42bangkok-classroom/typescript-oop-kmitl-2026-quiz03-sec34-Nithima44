@@ -5,8 +5,7 @@ export class Warrior extends Character {
   weapon?: string;
 
   constructor(name?: string, weapon?: string, health?: number) {
-    super();
-    this.name = name;
+    super(name ?? "");
     this.weapon = weapon;
     this.health = health;
   }
