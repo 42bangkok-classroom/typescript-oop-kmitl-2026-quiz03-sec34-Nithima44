@@ -20,3 +20,4 @@ export class User {
         return `${this.firstname} ${this.lastname}`;
     }
 }
+
