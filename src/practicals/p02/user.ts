@@ -17,7 +17,8 @@ export class User {
         return this.age;
     }
     getFullName(){
-        return `${this.firstname} ${this.lastname}`;
+        const first = this.firstname || '';
+        const last = this.lastname || '';
+        return `${first} ${last}`.trim();
     }
 }
-const user = new User();
