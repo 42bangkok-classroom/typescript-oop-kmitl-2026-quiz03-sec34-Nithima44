@@ -19,6 +19,6 @@ export class User {
     getFullName(){
         const first = this.firstname || '';
         const last = this.lastname || '';
-        return `${first} ${last}`;
+        return `${first} ${last}`.trim();
     }
 }
